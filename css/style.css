@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h1{
+    padding: 20px;
+}
+
+#form_name{
+    font-size: 20px;
+}
+
+table{
+    margin: 0 auto;
+}
+
+td{
+    padding-bottom: 10px;
+    width: 15px;
+}
+
+label{
+    width: 150px;
+    display: inline-block;
+    color: #777;
+    text-align: right;
+}
+
+.message-nickname,
+.message-name,
+.message-surname,
+.message-email,
+.message-password{
+    width: 355px;
+    padding-left: 10px;
+    color: #d00303;
+}
+
+.status-nickname{
+    width: 20px;
+    text-align: center;
+    color: #d00303;
+}
+
+#nickname,#name,#surname{
+    width: 300px;
+    padding: 3px;
+    font-weight: bold;
+}
+
+#email,.email,#password,.pass,.btn{
+    width: 150px;
+}
+
+.green{
+    color: #008000;
+}
+
+.red{
+    color: #d00303;
+}
+
+.pass{
+    width: 50%;
+}

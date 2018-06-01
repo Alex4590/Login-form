@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/ajax.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 id="form_name">Регистрация:</h1>
+        <form id="form" action="FormProcessing.php" method="post">
+            <table>
+                <tr>
+                    <td><label for="nickname">Никнейм: </label></td>
+                    <td id="status-nickname"></td>
+                    <td><input name="nickname" id="nickname" type="text" required></td>
+                    <td class="message-nickname"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="name">Имя: </label></td>
+                    <td id="status-name"></td>
+                    <td><input name="name" id="name" type="text" required></td>
+                    <td class="message-name"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="surname">Фамилия: </label></td>
+                    <td id="status-surname"></td>
+                    <td><input name="surname" id="surname" type="text" required></td>
+                    <td class="message-surname"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Электронная почта: </label></td>
+                    <td id="status-email"></td>
+                    <td>
+                        <input name="email" id="email" type="text" required>
+                        <span class="message-email"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="password">Пароль: </label></td>
+                    <td id="status-password"></td>
+                    <td colspan="2">
+                        <input name="password" id="password" type="password" required>
+                        <span class="message-password"></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><input type="submit" id="submit" value="Готово" class="btn" name="submit"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+</html>
